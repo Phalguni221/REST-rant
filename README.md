@@ -8,8 +8,8 @@ Project setup, stub three routes, and creating a README file
 
 
 5 Restaurants to Review 
-- (H-Thai-M-L)-Chicago-IL-ThaiCuisine-![]
+- (H-Thai-M-L)-Chicago-IL-ThaiCuisine-![H-Thai-M-L Logo](https://github.com/Phalguni221/Thai-Restaurant-Menu/blob/main/logo.png?raw=true)
 - BurgerKing-Mahwah-NJ-AmericanFastFood-![Burger King Logo](https://th.bing.com/th/id/R.180424d9891acbfe9e6446bfbd5d4368?rik=S%2bGdVKF0hj0o3Q&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f04%2fBurger_King_logo_emblem-2.png&ehk=j3T6tYeOtJNsvETcch%2fpSOBmsGu%2fkoYGPgbf6CgnpEY%3d&risl=&pid=ImgRaw&r=0)
-- PandaExpress-NYC-NY-ChineseCuisine-![]
-- ChandPalace-Piscataway-NJ-IndianCuisine-![]
+- PandaExpress-NYC-NY-ChineseCuisine-![Panda Express Logo](https://th.bing.com/th/id/R.071a526af1d0c06352f33add065e9168?rik=HPu%2fihgHuVL6Tg&pid=ImgRaw&r=0)
+- ChandPalace-Piscataway-NJ-IndianCuisine-![Chand Palace](https://th.bing.com/th/id/R.76313ea87f59e0697481b306f52a9e62?rik=GuraripsCkf5Pw&riu=http%3a%2f%2fwww.chandpalace.com%2fimages%2flogo.jpg&ehk=09eeX%2bGBrYLmEPmvZmLvnGnCoCskKw9Bm9a%2bWH22Rn4%3d&risl=&pid=ImgRaw&r=0)
 - Applebee's-Rochester-NY-AmericanFood-![Applebee's Logo](https://th.bing.com/th/id/R.835fe3ca18ffc037b44cf9e031a64264?rik=usV9irs47936Kg&riu=http%3a%2f%2fbandbent.files.wordpress.com%2f2010%2f01%2fapplebees_new_logo_final-1_ucm6.jpg&ehk=3KJTZzKAoymzqbQdxNennb%2fJqfO4VpVH5IT8xHciWIw%3d&risl=&pid=ImgRaw&r=0)
