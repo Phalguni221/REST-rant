@@ -1,8 +1,21 @@
 About: This project is a compiled demonstration of the lessons learned in Back-End Development unit of the Full Stack Development Bootcamp at NJIT.
 The REST-Rant project involves making a website which allows a website user to access individual portfolios of different kinds of bread via created routes. The user's expreience and interaction with the webpage would be highly depenedent on the proper functioning of the client-server model. 
 
-Part 1 Instructions
-Project setup, stub three routes, and creating a README file
+Part 1 Instructions:
+1. Project setup
+2. Stub three routes
+3. Creating a README file
+
+Part 2: 
+1.Stub remaining GET and POST routes
+2. Planning mock restaurant data
+3. Drawing wireframes
+4. Making your first view
+
+Part 3: 
+1. Making more views
+2. Creating a layout page
+3. Expanding your README
 
 #Table of Routes for Rest-Rant Website
 
