@@ -19,6 +19,8 @@ Part 3:
 
 #Table of Routes for Rest-Rant Website
 
+|Method|Path|Purpose
+
 
 5 Restaurants to Review 
 - (H-Thai-M-L)-Chicago-IL-ThaiCuisine-![H-Thai-M-L Logo](https://github.com/Phalguni221/Thai-Restaurant-Menu/blob/main/logo.png?raw=true)
