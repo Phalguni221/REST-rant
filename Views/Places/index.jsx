@@ -2,7 +2,7 @@ const React = require('react')
 const Def = require('./default')
 const app = express()
 
-function index (data) {
+function index () {
     let placesFormatted = data.places.map((place) => {
       return (
         <div>
