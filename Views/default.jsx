@@ -1,5 +1,6 @@
 function Def (html) {
     return (
+        <Def>
         <html>
            <head>
   <title>Hello, world!</title>
@@ -12,5 +13,6 @@ function Def (html) {
                 {html.children}
             </body>
         </html>
+    </Def>
     )
   }
