@@ -1,6 +1,12 @@
+const React = require('react')
+
+function Def (html) {}
+
+module.exports = Def
+
 function Def (html) {
     return (
-        <Def>
+        <div>
         <html>
            <head>
   <title>Hello, world!</title>
@@ -13,6 +19,6 @@ function Def (html) {
                 {html.children}
             </body>
         </html>
-    </Def>
+    </div>
     )
   }

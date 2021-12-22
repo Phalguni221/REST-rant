@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
   res.render('places/index', { places })
   })
 
+  app.get('./default', (req, res) => {
+    res.render('default')
+  })
+
   app.get('*', (req, res) => {
     res.render('error404')
   })
