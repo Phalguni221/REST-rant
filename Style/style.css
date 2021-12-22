@@ -1,0 +1,11 @@
+:root {
+    --first-color: beige;
+    --second-color: black;
+    --highlight-color: gold;
+  }
+
+  body {
+      background-color:var(--first-color);
+      color:var(--second-color);
+      
+  }
