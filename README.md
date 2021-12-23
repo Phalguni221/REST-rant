@@ -17,6 +17,9 @@ Part 3:
 2. Creating a layout page
 3. Expanding your README
 
+Part 4:
+1. Adding some style with CSS
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
