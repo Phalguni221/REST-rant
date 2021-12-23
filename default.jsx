@@ -6,7 +6,7 @@ module.exports = Def
 
 function Def (html) {
     return (
-        <div>
+        <Def>
         <html>
            <head>
   <title>Hello, world!</title>
@@ -19,6 +19,6 @@ function Def (html) {
                 {html.children}
             </body>
         </html>
-    </div>
+    </Def>
     )
   }
