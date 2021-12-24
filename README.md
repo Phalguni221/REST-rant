@@ -20,6 +20,11 @@ Part 3:
 Part 4:
 1. Adding some style with CSS
 
+Part 5: 
+1. Forms
+2. Validation
+3. Navigation
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose

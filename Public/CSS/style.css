@@ -6,6 +6,16 @@
 
   body {
       background-color:var(--first-color);
-      color:var(--second-color);
-      
+      color:var(--second-color);   
+  }
+
+  img {
+      width:200px;
+      height:200px;
+      image-orientation: inherit;
+  }
+
+h3 {
+    width:600px;
+    height:600px;
   }
