@@ -25,6 +25,10 @@ Part 5:
 2. Validation
 3. Navigation
 
+Part 6: 
+1. Implementing delete functionality
+2. Adding a DELETE route
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
