@@ -39,5 +39,9 @@ app.get('*', (req, res) => {
   res.render('error404')
 })
 
+app.get('/places', (req, res) => {
+  res.render('places')
+})
+
 //Listen for Connections
 app.listen(process.env.PORT)

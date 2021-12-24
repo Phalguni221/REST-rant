@@ -12,7 +12,9 @@
   img {
       width:200px;
       height:200px;
-      image-orientation: inherit;
+      flex-wrap:wrap;
+      position:relative; 
+
   }
 
 h3 {
