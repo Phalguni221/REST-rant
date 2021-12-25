@@ -13,6 +13,9 @@ app.use(express.static('public'))
 //Controllers and Routes
 app.use('/places', require('./controllers/places'))
 
+// app.post('/places', (req,res) => {
+//   res.render('places')
+// })
 
 app.get('/', (req, res) => {
   res.render('home')
@@ -22,8 +25,5 @@ app.get('*', (req, res) => {
   res.render('error404')
 })
 
-// app.post('/places', (req,res) => {
-//   res.render('places')
-// })
 //Listen for Connections
 app.listen(process.env.PORT)
