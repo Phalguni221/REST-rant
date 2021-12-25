@@ -1,6 +1,7 @@
 //Modules and Globals
 require('dotenv').config()
 const express = require('express')
+const res = require('express/lib/response')
 const app = express()
 
 //Express Settings
@@ -21,6 +22,8 @@ app.get('*', (req, res) => {
   res.render('error404')
 })
 
-
+// app.post('/places', (req,res) => {
+//   res.render('places')
+// })
 //Listen for Connections
 app.listen(process.env.PORT)
