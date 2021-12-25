@@ -1,6 +1,6 @@
 :root {
-    --first-color: beige;
-    --second-color: black;
+    --first-color: #f5f5dc;
+    --second-color: rgb(177, 3, 3);
     --highlight-color: gold;
   }
 
