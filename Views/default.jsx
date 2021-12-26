@@ -10,11 +10,18 @@ function Def (html) {
             </head>
             <body>
                 {html.children}
+                <div class="content">
+    <div class="content-inside">
+      content
+    </div>
+  </div>
             </body>
+  <footer class="footer">Footer</footer>
         </html>
     )
 }
           
   module.exports = Def
+  
 
   

@@ -21,3 +21,26 @@ h3 {
     width:600px;
     height:600px;
   }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    height: 50px;
+    margin-top: -50px;
+  }
+  
+  .footer,
+  .push {
+    height:70px;
+    color:blue;
+    margin-top: -50px;
+  }

@@ -16,7 +16,7 @@ module.exports=[{
     state: 'AZ',
     cuisines: 'Coffee, Bakery',
     pic: '/Images/Applebees.jpeg'
-  } ,  {
+  },  {
     name: 'Sarvanana Bhavan',
     city: 'Phoenix',
     state: 'AZ',
