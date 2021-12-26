@@ -1,10 +1,4 @@
-const res = require('express/lib/response')
-
-const router = require('express').Router()
-const places = require('../Models/places.js')
-
-router.get('/', (req, res) => {
-  let places = [{
+module.exports=[{
     name: 'H-Thai-ML',
     city: 'Seattle',
     state: 'WA',
@@ -36,27 +30,4 @@ router.get('/', (req, res) => {
     pic: '/Images/Veggie Grill.gif'
   }
 ]
-    res.render('places/index', {places})
-})
 
-router.get('/new', (req, res) => {
-  res.render('places/new')
-})
-
-  router.post('/', (req, res) => {
-    console.log(req.body)
-    if (!req.body.pic) {
-      // Default image if one is not provided
-      req.body.pic = 'http://placekitten.com/400/400'
-    }
-    if (!req.body.city) {
-      req.body.city = 'Anytown'
-    }
-    if (!req.body.state) {
-      req.body.state = 'USA'
-    }
-    places.push(req.body)
-    res.redirect('/places')
-  })
-
-module.exports =  router
