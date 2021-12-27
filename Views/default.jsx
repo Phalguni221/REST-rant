@@ -10,16 +10,22 @@ function Def (html) {
             </head>
             <body>
                 {html.children}
-                <div class="content">
-    <div class="content-inside">
-      content
-    </div>
-  </div>
+                <div class="content"></div>
             </body>
-  <footer class="footer">Footer</footer>
+            <br></br>
+            <br></br>
+            <br></br>
+  <footer class="footer">
+  <p>Links!:</p>
+  <br></br>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/sriya-bhamidipati-359391219/">Link to My LinkedIn Profile</a></p>
+<br></br>
+<p>Uber Eats: <a href="https://www.ubereats.com/">Uber Eats(Get Tasty Food Delivered to Your Door!)</a></p>
+  </footer>
         </html>
     )
 }
+
           
   module.exports = Def
   

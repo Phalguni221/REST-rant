@@ -8,26 +8,20 @@ module.exports=[{
     name: 'Burger King',
     city: 'Phoenix',
     state: 'AZ',
-    cuisines: 'Coffee, Bakery',
+    cuisines: 'American, fast-food',
     pic: '/Images/Burger King.png'
-  }, {
-    name: 'Applebees',
-    city: 'Phoenix',
-    state: 'AZ',
-    cuisines: 'Coffee, Bakery',
-    pic: '/Images/Applebees.jpeg'
   },  {
     name: 'Sarvanana Bhavan',
-    city: 'Phoenix',
-    state: 'AZ',
-    cuisines: 'Coffee, Bakery',
+    city: 'NYC',
+    state: 'NY',
+    cuisines: 'Indian, vegetarian',
     pic: '/Images/Sarvanana Bhavan.png'
   },  {
     name: 'Veggie Grill',
-    city: 'Phoenix',
-    state: 'AZ',
-    cuisines: 'Coffee, Bakery',
-    pic: '/Images/Veggie Grill.gif'
+    city: 'San Jose',
+    state: 'CA',
+    cuisines: 'American, vegan',
+    pic: '/Images/Veggie Grill.png'
   }
 ]
 

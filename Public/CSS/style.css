@@ -22,25 +22,23 @@ h3 {
     height:600px;
   }
 
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
+
   .content {
     min-height: 100%;
   }
-  .content-inside {
-    padding: 20px;
-    padding-bottom: 50px;
+
+  a {
+    color:white;
   }
-  .footer {
-    height: 50px;
-    margin-top: -50px;
+
+  p {
+    color:white;
   }
-  
+
   .footer,
   .push {
-    height:70px;
-    color:blue;
+    font-size:18px;
+    height:200px;
+    background-color:black;
     margin-top: -50px;
   }

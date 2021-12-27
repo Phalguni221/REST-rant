@@ -5,7 +5,6 @@ function new_form () {
     return (
         <Def>
           <main>
-
             <h1>Add a New Place</h1>
         <form method="POST" action="/places">
             <div class="form-group">
@@ -89,7 +88,7 @@ function new_form () {
             </div>
             <br></br>
             
-            <input type="submit" class="btn btn-primary" value="Add Place"/>
+            <input class= "btn btn-primary" type="submit" value="Add Place"/>
 
             </form>
 
