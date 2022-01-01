@@ -5,10 +5,16 @@
   }
 
   body {
-      background-color:var(--first-color);
-      color:var(--second-color);   
+    background-color: lightblue;
+    text-align: center;
   }
-
+  
+  main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+  }
+  
   img {
       width:200px;
       height:200px;
@@ -42,3 +48,28 @@ h3 {
     background-color:black;
     margin-top: -50px;
   }
+
+  nav {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: black;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
