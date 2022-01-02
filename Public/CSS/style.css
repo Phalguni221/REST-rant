@@ -23,9 +23,15 @@
 
   }
 
+  h1{
+    color:blue;
+  }
+
+  h2{
+    color:purple;
+  }
 h3 {
-    width:600px;
-    height:600px;
+    color:purple;
   }
 
 
@@ -34,11 +40,15 @@ h3 {
   }
 
   a {
-    color:white;
+    color:palegoldenrod;
   }
 
   p {
-    color:white;
+    color:purple;
+  }
+
+  text {
+    color:blue;
   }
 
   .footer,

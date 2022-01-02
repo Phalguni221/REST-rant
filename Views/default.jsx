@@ -29,11 +29,13 @@ function Def (html) {
             <br></br>
             <br></br>
   <footer class="footer">
-  <p>Links!:</p>
+  <text>Links!:</text>
   <br></br>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/sriya-bhamidipati-359391219/">Link to My LinkedIn Profile</a></p>
+  <br></br>
+<text>LinkedIn: <a href="https://www.linkedin.com/in/sriya-bhamidipati-359391219/">Link to My LinkedIn Profile</a></text>
 <br></br>
-<p>Uber Eats: <a href="https://www.ubereats.com/">Uber Eats(Get Tasty Food Delivered to Your Door!)</a></p>
+<br></br>
+<text>Uber Eats: <a href="https://www.ubereats.com/">Uber Eats(Get Tasty Food Delivered to Your Door!)</a></text>
   </footer>
         </html>
     )
