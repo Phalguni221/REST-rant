@@ -63,7 +63,7 @@ router.get('/new', (req, res) => {
         res.render('error404')
     }
     else {
-      res.render('places/editpage', { place: places[id] })
+      res.render('places/edit', { place: places[id] })
     }
   })
 
