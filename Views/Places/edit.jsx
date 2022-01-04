@@ -8,7 +8,7 @@ function edit_form (data) {
           <main>
               <h1> EDIT PLACE</h1>
         <form method="POST" action={`/places/${data.id}?_method=PUT`}>
-            <div class="form-group">
+            <div className="form-group">
                 <label htmlFor="name">Place Name</label>
                  <input 
                  className="form-control" 
@@ -19,20 +19,20 @@ function edit_form (data) {
             </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="form-group">
                 <label htmlFor="pic">Place Picture</label>
                  <input className="form-control" id="pic" name="pic" />
             </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="form-group">
                 <label htmlFor="city">City Name</label>
                  <input className="form-control" id="city" name="city" />
             </div>
             <br></br>
 
-                    <div className="row">
-                <div class="form-group" col-sm-6>
+            <div className="row">
+                <div className="form-group col-sm-6">
                 <label htmlFor="state">State</label>
                  <input list="state-list" id="state" name="state"/>
                     <datalist id="state-list">
@@ -88,13 +88,13 @@ function edit_form (data) {
                     </datalist>
                     </div>
             <br></br>
-            </div>
 
-            <div class="form-group" col-sm-6>
+            <div className="form-group col-sm-6">
                 <label htmlFor="cuisine">Cuisine</label>
                  <input className="form-control" id="cuisine" name="cuisine" required />
             </div>
             <br></br>
+        </div>
             
             <input class= "btn btn-primary" type="submit" value="Add Place"/>
 
