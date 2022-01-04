@@ -29,6 +29,10 @@ Part 6:
 1. Implementing delete functionality
 2. Adding a DELETE route
 
+Part 7: 
+1. Implementing edit form and functionality 
+2. Adding a PUT route
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
