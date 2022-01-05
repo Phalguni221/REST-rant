@@ -1,5 +1,6 @@
 const React = require('react')
-const Def = require('./default')
+const places = require('../../Models/places.js')
+const Def = require('../default.jsx')
 
 
 function edit_form (data) {
@@ -14,7 +15,7 @@ function edit_form (data) {
                  className="form-control" 
                  id="name" 
                  name="name" 
-                 value={data.place.name}
+                 value= {data.place}
                  required />
             </div>
             <br></br>
@@ -87,16 +88,27 @@ function edit_form (data) {
                         <option value="WY">Wyoming</option>
                     </datalist>
                     </div>
+                </div>
             <br></br>
 
+            <div className="row">
             <div className="form-group col-sm-6">
                 <label htmlFor="cuisine">Cuisine</label>
                  <input className="form-control" id="cuisine" name="cuisine" required />
             </div>
             <br></br>
         </div>
+
+        
+        <div className="row">
+            <div className="form-group col-sm-6">
+                <label htmlFor="year of establishment">Year of Establishment</label>
+                 <input className="form-control" id="year" name="year"/>
+            </div>
+            <br></br>
+        </div>
             
-            <input class= "btn btn-primary" type="submit" value="Add Place"/>
+            <input class= "btn btn-primary" type="submit" value="Add Changes"/>
 
             </form>
 

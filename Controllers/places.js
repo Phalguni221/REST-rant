@@ -1,7 +1,7 @@
 const res = require('express/lib/response')
-
 const router = require('express').Router()
 const places = require('../Models/places.js')
+
 
 router.get('/', (req, res) => {
     res.render('places/index', {places})
@@ -94,4 +94,4 @@ router.get('/new', (req, res) => {
     }
   })
 
-module.exports =  router
+module.exports = router

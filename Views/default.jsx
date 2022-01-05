@@ -54,6 +54,9 @@ function Def (html) {
 <br></br>
 <br></br>
 <text>Uber Eats: <a href="https://www.ubereats.com/">Uber Eats(Get Tasty Food Delivered to Your Door!)</a></text>
+<br></br>
+<br></br>
+<text>App Author: Sriya P. Bhamidipati</text>
   </footer>
         </html>
     )

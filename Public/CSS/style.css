@@ -4,6 +4,11 @@
     --highlight-color: gold;
   }
 
+html,body {
+  height:100%;
+  margin:0pt;
+}
+
   body {
     background-color: lightblue;
     text-align: center;
@@ -53,8 +58,11 @@ h3 {
 
   .footer,
   .push {
-    font-size:18px;
-    height:200px;
+    position:sticky;
+    font-size:14px;
+    height:115px;
+    top:0.5px;
+    bottom:1em;
     background-color:black;
     margin-top: -50px;
   }
