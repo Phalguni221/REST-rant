@@ -14,16 +14,17 @@ function show (data) {
             <p>Currently Unrated</p>
             <h3>Comment Section</h3>
             <p>No comments today!</p>
-            <div>
-            <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
+             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
               Edit
-            </a> 
+            </a>  
+            <div>
                 <form method="POST" action={`places/${data.id}?_method=DELETE`}> 
                  <button type="submit" className="btn btn-danger">
                      Delete
                 </button>
                 </form>     
             </div>
+           
           </main>
 
         </Def>

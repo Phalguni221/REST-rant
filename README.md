@@ -33,6 +33,9 @@ Part 7:
 1. Implementing edit form and functionality 
 2. Adding a PUT route
 
+Part 8:
+1. Implementing the Mongoose ODM
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
