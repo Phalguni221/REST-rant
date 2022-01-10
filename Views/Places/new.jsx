@@ -7,26 +7,26 @@ function new_form () {
           <main>
             <h1>Add a New Place</h1>
         <form method="POST" action="/places">
-
-            <div class="form-group">
+            <div className = "row">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="name">Place Name</label>
                  <input className="form-control" id="name" name="name" required />
             </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="pic">Place Picture</label>
                  <input className="form-control" id="pic" name="pic" />
-            </div>
+                </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="city">City Name</label>
                  <input className="form-control" id="city" name="city" />
-            </div>
+                </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="state">State</label>
                  <input list="state-list" id="state" name="state"/>
                     <datalist id="state-list">
@@ -83,22 +83,22 @@ function new_form () {
                     </div>
             <br></br>
 
-            <div class="form-group">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="cuisine">Cuisine</label>
                  <input className="form-control" id="cuisine" name="cuisine" required />
             </div>
 
             <br></br>
 
-            <div class="form-group">
+            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="founded">Founded Year</label>
                 <input className="form-control" id="founded" name="founded" />
-            </div>
-
+                </div>
             <br></br>
-            
+        
             <input class= "btn btn-primary" type="submit" value="Add Place"/>
 
+            </div>
             </form>
 
           </main>
