@@ -1,27 +1,13 @@
-module.exports=[{
-    name: 'H-Thai-ML',
-    city: 'Seattle',
-    state: 'WA',
-    cuisines: 'Thai, Pan-Asian',
-    pic: 'Images/H-Thai-M-L logo.png'
-  }, {
-    name: 'Burger King',
-    city: 'Phoenix',
-    state: 'AZ',
-    cuisines: 'American, fast-food',
-    pic: '/Images/Burger King.png'
-  },  {
-    name: 'Sarvanana Bhavan',
-    city: 'NYC',
-    state: 'NY',
-    cuisines: 'Indian, vegetarian',
-    pic: '/Images/Sarvanana Bhavan.png'
-  },  {
-    name: 'Veggie Grill',
-    city: 'San Jose',
-    state: 'CA',
-    cuisines: 'American, vegan',
-    pic: '/Images/Veggie Grill.png'
-  }
-]
+const mongoose = require('mongoose')
 
+
+const placeSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  pic: {type: String},
+  cuisine: { type: String, required: true },
+  city: { type: String, default: 'Anytown' },
+  state: { type: String, default: 'USA' },
+  founded: { type: String, default: '2022' }
+})
+
+module.exports = mongoose.model('Place', placeSchema)

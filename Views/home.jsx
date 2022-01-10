@@ -25,11 +25,11 @@ const Def = require('./default')
       </div>
 
       <div>
-      <img src="./Images/Applebee's.jpeg" alt="Applebee's"/>
+      <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
       </div>
 
       <div>
-      <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
+      <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
       </div>
     
               <a href="/places">
