@@ -1,7 +1,7 @@
 const React = require('react')
 const Def = require('../default')
 
-function new_form () {
+function new_form (data) {
     return (
         <Def>
           <main>
@@ -20,7 +20,7 @@ function new_form () {
                  <input className="form-control" id="cuisines" name="cuisines" required />
             </div>
         <br></br>
-        
+
             <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="pic">Place Picture</label>
                  <input className="form-control" id="pic" name="pic" />

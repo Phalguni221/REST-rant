@@ -12,16 +12,16 @@ res.render('places/index', { places })
     })
 })
 
-  router.post('/', (req, res) => {
-    db.Place.create(req.body)
-    .then(() => {
+router.post('/', (req, res) => {
+  db.Place.create(req.body)
+  .then(() => {
       res.redirect('/places')
-    })
-    .catch(err => {
-      console.log('err', err)
-      res.render('error404')
-    })
   })
+  .catch(err => {
+    console.log('err', err)
+      res.render('error404')
+  })
+})
 
 router.get('/new', (req, res) => {
   res.render('places/new')
@@ -43,8 +43,9 @@ router.put('/:id', (req, res) => {
 })
 
 router.delete('/:id', (req, res) => {
-  res.send('DELETE /places/:id stub')
+  res.send('GET /:id delete stub')
 })
+
 
 router.get('/:id/edit', (req, res) => {
   res.send('GET :id/edit stub')

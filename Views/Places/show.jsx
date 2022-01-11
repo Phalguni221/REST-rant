@@ -1,10 +1,11 @@
 const React = require('react')
 const Def = require('../default')
 
-function show (data) {
+function new_form (data) {
     return (
         <Def>
             <head>
+              <h1>Add a new place</h1>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="/css/style.css"/>
             </head>
@@ -42,4 +43,4 @@ function show (data) {
     )
 }
 
-module.exports = show
+module.exports = new_form
