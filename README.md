@@ -36,6 +36,11 @@ Part 7:
 Part 8:
 1. Implementing the Mongoose ODM
 
+Part 9:
+1. Seeding data
+2. Validations
+3. Helper methods
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose

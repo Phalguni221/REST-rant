@@ -8,7 +8,7 @@ function edit_form (data) {
       <Def>
           <main>
               <h1> EDIT PLACE</h1>
-        <form method="POST"  action={`/places/${req.params.dataid}?_method=PUT`}>
+        <form method="POST"  action={`/places/${req.params.id}?_method=PUT`}>
             <div className="form-group">
                 <label htmlFor="name">Place Name</label>
                  <input 

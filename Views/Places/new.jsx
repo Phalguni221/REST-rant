@@ -7,12 +7,18 @@ function new_form () {
           <main>
             <h1>Add a New Place</h1>
         <form method="POST" action="/places">
-            <div className = "row">
+       
             <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="name">Place Name</label>
                  <input className="form-control" id="name" name="name" required />
             </div>
             <br></br>
+
+            
+            <div className="col-sm-6 col-md-4 col-lg-3">
+                <label htmlFor="cuisine">Cuisine</label>
+                 <input className="form-control" id="cuisines" name="cuisines" required />
+            </div>
 
             <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="pic">Place Picture</label>
@@ -84,13 +90,6 @@ function new_form () {
             <br></br>
 
             <div className="col-sm-6 col-md-4 col-lg-3">
-                <label htmlFor="cuisine">Cuisine</label>
-                 <input className="form-control" id="cuisine" name="cuisine" required />
-            </div>
-
-            <br></br>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
                 <label htmlFor="founded">Founded Year</label>
                 <input className="form-control" id="founded" name="founded" />
                 </div>
@@ -98,7 +97,6 @@ function new_form () {
         
             <input class= "btn btn-primary" type="submit" value="Add Place"/>
 
-            </div>
             </form>
 
           </main>

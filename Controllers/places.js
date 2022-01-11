@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
 })
 
 router.put('/:id', (req, res) => {
-  res.send('PUT /places/:id stub')
+  res.send('GET :id stub')
 })
 
 router.delete('/:id', (req, res) => {
@@ -47,7 +47,7 @@ router.delete('/:id', (req, res) => {
 })
 
 router.get('/:id/edit', (req, res) => {
-  res.send('GET edit form stub')
+  res.send('GET :id/edit stub')
 })
 
 router.post('/:id/rant', (req, res) => {
