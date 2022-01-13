@@ -41,6 +41,9 @@ Part 9:
 2. Validations
 3. Helper methods
 
+Part 10:
+1. Adding commentary: rants and raves
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
