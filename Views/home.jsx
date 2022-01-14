@@ -15,23 +15,23 @@ const Def = require('./default')
             <div>
         Photo by <a href="https://unsplash.com/@shootdelicious">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/free">Unsplash</a>
       </div>
-   
+            <br></br>
       <div>
       <img src="./Images/H-Thai-M-L logo.png" alt="Burger King"/>
       </div>
-
+            <br></br>
       <div>
       <img src="./Images/Burger King.png" alt="Burger King"/>
       </div>
-
+            <br></br>
       <div>
       <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
       </div>
-
+         <br></br>
       <div>
       <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
       </div>
-    
+      <br></br> 
               <a href="/places">
   <button className="btn-primary">Places Page</button>
               </a>

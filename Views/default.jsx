@@ -10,6 +10,9 @@ function Def (html) {
              <body>
                  <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
+                        <br></br>
+                        <br></br>
+
                     <ul>
                         <li>
                             <a href="/">Home</a>

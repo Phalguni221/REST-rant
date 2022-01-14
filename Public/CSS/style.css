@@ -64,9 +64,9 @@ h4 {
   .push {
     position:sticky;
     font-size:18px;
-    height:150px;
-    top:5px;
-    bottom:1em;
+    height:200px;
+    top:10px;
+    bottom:0.1em;
     background-color:black;
     margin-top: -50px;
   }
@@ -100,3 +100,5 @@ nav a:hover {
     color: pink;
     text-decoration: none;
 }
+
+
