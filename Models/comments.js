@@ -6,5 +6,7 @@ let commentSchema = new mongoose.Schema({
     stars: { type: Number, required: true },
     content: { type: String, default: '' }
 })
+
+commentSchema.methods.showEstablished = function() {}
   
 module.exports = mongoose.model('Comment', commentSchema)

@@ -39,6 +39,10 @@ h3 {
     color:purple;
   }
 
+h4 {
+  color:blue;
+}
+
 
   .content {
     min-height: 100%;
@@ -59,9 +63,9 @@ h3 {
   .footer,
   .push {
     position:sticky;
-    font-size:14px;
-    height:115px;
-    top:0.5px;
+    font-size:18px;
+    height:150px;
+    top:5px;
     bottom:1em;
     background-color:black;
     margin-top: -50px;

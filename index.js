@@ -36,5 +36,9 @@ app.get('/places/delete', (req, res) => {
   res.render('Deletepage')
 })
 
+app.get('/places/comment', (req, res) => {
+  res.render('Commentpage')
+})
+
 //Listen for Connections
 app.listen(process.env.PORT)
