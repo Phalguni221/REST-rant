@@ -14,7 +14,7 @@ async function seed() {
     })
 
     // Add that comment to the place's comment array.
-    place.comments.push(comment.id)
+    place.comment.push(comment.id)
 
     //Add .save()
     await place.save()
@@ -22,5 +22,4 @@ async function seed() {
     // Exit the program
     process.exit()
 }
-
 seed()
