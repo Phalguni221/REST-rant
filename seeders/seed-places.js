@@ -2,11 +2,11 @@ const db = require('../models')
 
 db.Place.create([
     {
-      name: 'Coding Cat Cafe',
-      city: 'NYC',
-      state: 'NY',
+      name: 'Kawaii Kitty Cafe',
+      city: 'Philadelphia',
+      state: 'PA',
       cuisines: 'Coffee, Cafe-Style',
-      pic: '/Images/Cafe-cat.png',
+      pic: '/Images/Kawaii Kitty Cafe.png',
       founded:2020
     }, {
         name: 'H-Thai-ML',

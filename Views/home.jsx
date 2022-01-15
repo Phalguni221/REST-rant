@@ -11,32 +11,41 @@ const Def = require('./default')
                   <div className="col-sm-6">
     <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
     alt="Walnut Salad"/>
-            </div>
-            <div>
+                    </div>
         Photo by <a href="https://unsplash.com/@shootdelicious">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/free">Unsplash</a>
-      </div>
             <br></br>
-      <div>
-      <img src="./Images/H-Thai-M-L logo.png" alt="Burger King"/>
-      </div>
-            <br></br>
-      <div>
-      <img src="./Images/Burger King.png" alt="Burger King"/>
-      </div>
-            <br></br>
-      <div>
-      <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
-      </div>
-         <br></br>
-      <div>
-      <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
-      </div>
-      <br></br> 
+            <div class = "row">
+
+                <div class="column">
+                    <img src="./Images/H-Thai-M-L logo.png" alt="Burger King"/>
+                    </div>
+
+                <div class="column">
+                    <img src="./Images/Burger King.png" alt="Burger King"/>
+                </div>
+
+                <div class="column">
+                    <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
+                </div>
+
+                <div class="column">
+                    <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
+                </div> 
+
+                <div class="column">
+                    <img src="./Images/Panda Express.png" alt="Panda Express"/>
+                </div> 
+
+                <div class="column">
+                    <img src="./Images/Kawaii Kitty Cafe.png" alt="Kawaii Kitty Cafe"/>
+                </div> 
+                <br></br>
               <a href="/places">
   <button className="btn-primary">Places Page</button>
               </a>
+        </div>
               </main>
-          </Def>
+        </Def>
         )
     }
 

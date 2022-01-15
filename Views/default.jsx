@@ -6,6 +6,7 @@ function Def (html) {
             <head>
                 <title>Title</title>
                 <link rel="stylesheet" href="/css/style.css"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             </head>
              <body>
                  <nav class="navbar navbar-light bg-light">
@@ -22,10 +23,7 @@ function Def (html) {
                         </li>
                         <li>
                         <a href="/places/new">Add Places</a>
-                            </li>
-                            <li>
-                        <a href="/places/comment">Comments</a>
-                            </li>
+                        </li>
                     </ul>
                 {html.children}
                 <div class="content"></div>
