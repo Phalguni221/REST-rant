@@ -24,7 +24,7 @@ function show (data) {
     })
   }
     return (
-        <Def>
+      <Def>
             <head>
             {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/> */}
             <link rel="stylesheet" href="/css/style.css"/>
@@ -47,7 +47,6 @@ function show (data) {
           Serving {data.place.cuisines}
         </h4>
             <h3>Comment Section</h3>
-              {comments}
              <form method="POST" action={`places/${data.id}/edit?`}> 
                  <button type="submit" className="btn btn-danger">
                     Edit
@@ -58,10 +57,11 @@ function show (data) {
                  <button type="submit" className="btn btn-danger">
                      Delete
                 </button>
-                </form>           
-          <hr></hr>
-      <h1>Add a Comment Below</h1>
-  <form method="POST" action="/places/:id/comment">
+                </form> 
+                </main>
+                <h1>Add a Comment Below</h1>
+      {comments}
+<form method="POST" action="/places/:id/comment">
  
       <div className="col-sm-6 col-md-4 col-lg-3">
           <label htmlFor="author">Author</label>
@@ -97,8 +97,7 @@ function show (data) {
       <br></br>
       <input type="submit" value="Submit"></input>
   </form>
-  </main>
-  </Def>
-)
-    }
+</Def>
+    )
+} 
 module.exports = show
