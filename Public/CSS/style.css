@@ -4,10 +4,10 @@
     --highlight-color: gold;
   }
 
-html,body {
+  ` html,body {
   height:100%;
   margin:0pt;
-}
+} 
 
   body {
     background-color: lightblue;

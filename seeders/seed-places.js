@@ -8,14 +8,16 @@ db.Place.create([
       cuisines: 'Coffee, Cafe-Style',
       pic: '/Images/Kawaii Kitty Cafe.png',
       founded:2020
-    }, {
+    }, 
+    {
         name: 'H-Thai-ML',
         city: 'Seattle',
         state: 'WA',
         cuisines: 'Thai, Pan-Asian',
         pic: '/Images/H-Thai-M-L logo.png',
         founded:1989
-      }, {
+      },
+      {
         name: 'Burger King',
         city: 'Phoenix',
         state: 'AZ',
@@ -44,14 +46,14 @@ db.Place.create([
         pic: '/Images/Panda Express.png',
         founded:1983
       }
-    ]
-.then(() => {
-    console.log('Success!')
-    process.exit()
-})
-.catch(err => {
-    console.log('Failure!', err)
-    process.exit()
-})
+    ])
+// .then(() => {
+//     console.log('Success!')
+//     process.exit()
+// })
+// .catch(err => {
+//     console.log('Failure!', err)
+//     process.exit()
+// })
 
-)
+

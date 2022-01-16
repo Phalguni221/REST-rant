@@ -10,7 +10,6 @@ function show (data) {
   if (data.place.comments.length) {
     comments = data.place.comments.map(c => {
       return (
-        <Def>
         <div className="border">
           <h2 className="rant">{c.rant ? 'Rant! 😡' : 'Rave! 😻'}</h2>
           <h4>{c.content}</h4>
@@ -19,10 +18,8 @@ function show (data) {
           </h3>
           <h4>Rating: {c.stars}</h4>
         </div>
-        </Def>
       )
     })
-  }
     return (
       <Def>
             <head>
@@ -58,7 +55,7 @@ function show (data) {
                      Delete
                 </button>
                 </form> 
-                </main>
+          
                 <h1>Add a Comment Below</h1>
       {comments}
 <form method="POST" action="/places/:id/comment">
@@ -97,7 +94,9 @@ function show (data) {
       <br></br>
       <input type="submit" value="Submit"></input>
   </form>
+  </main>
 </Def>
-    )
+         )
 } 
+}
 module.exports = show
