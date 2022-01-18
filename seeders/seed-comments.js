@@ -44,6 +44,29 @@ async function seed1() {
 }
 seed1()
 
+// async function seed1() {
+//     // Get the place, H-Thai-ML
+//     let place = await db.Place.findOne({ name: 'H-Thai-ML' })
+
+//     // H-Thai-ML comment
+//     let comment = await db.Comment.create({
+//         author: 'Anonymous',
+//         rant: false,
+//         stars: 4.5,
+//         content: 'Food is great! Ambience could have been brighter,however!'
+//     })
+
+//     place.comments.push(comment.id)
+
+//     //Add .save()
+//     await place.save()
+    
+//     // Exit the program
+//     process.exit()
+// }
+// seed1()
+
+
 
 async function seed2() {
 let place = await db.Place.findOne({ name: 'Burger King' })

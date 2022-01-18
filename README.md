@@ -44,6 +44,12 @@ Part 9:
 Part 10:
 1. Adding commentary: rants and raves
 
+Part 11:
+1. Populating data for star ratings
+    a. Calculate ratings for a place dynamically.
+    b. Display stars instead of numbers for ratings.
+    c. Implement the edit and delete routes for places with an appropriate Mongoose method.
+
 #Table of Routes for Rest-Rant Website
 
 |Method|Path|Purpose
