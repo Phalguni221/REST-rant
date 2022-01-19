@@ -12,11 +12,16 @@ const Def = require('../default')
         Not yet rated
       </h3>
     )
+    let number = (
+      <h3 className="inactive">
+        Not yet rated(numerically)
+      </h3>
+    )
     if (data.place.comments.length) {
       let sumRatings = data.place.comments.reduce((tot, c) => {
         return tot + c.stars
       }, 0)
-      let averageRating = Math.round(sumRatings / data.place.comments.length)
+      let averageRating = Math.round(sumRatings /data.place.comments.length)
       let stars = ''
       for (let i = 0; i < averageRating; i++) {
         stars += '⭐️'
@@ -26,7 +31,11 @@ const Def = require('../default')
         {stars} stars
         </h3>
       )
-    }
+      number = (
+        <h3>
+        {sumRatings}rating
+        </h3>
+      )
   if (data.place.comments.length) {
     comments = data.place.comments.map(c => {
       return (
@@ -36,16 +45,14 @@ const Def = require('../default')
           <h3>
             <strong>{c.author}</strong>
           </h3>
-          <h4>Rating: {c.stars}</h4>
+          <h4>Rating: {rating}</h4>
         </div>
       )
     })
     return (
       <Def>
-            <head>
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="/css/style.css"/>
-            </head>
           <main>
             <h1>{data.place.name}</h1>
             <h2>Restaurant Rating</h2>
@@ -119,4 +126,5 @@ const Def = require('../default')
          )
 }
 }
+  }
 module.exports = show
