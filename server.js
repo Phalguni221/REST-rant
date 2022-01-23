@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(methodOverride('_method'))
 
 //Controllers and Routes
-app.use('/places', require('./conptrollers/places'))
+app.use('/places', require('./controllers/places'))
 
 app.post('/places', (req,res) => {
   res.render('places')
