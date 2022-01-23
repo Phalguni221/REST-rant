@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const db = require('../moooodels')
+const db = require('../moodels')
 
 router.get('/', (req, res) => {
   db.Place.find()
@@ -107,4 +107,8 @@ router.post('/:id/comment', (req, res) => {
   })
 })
 
+<<<<<<< HEAD
 module.exports = router
+=======
+module.exports = router
+>>>>>>> f066c023a0c7f9d0a8ef8f7bb493c3566b2f90f4
