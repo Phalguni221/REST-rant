@@ -12,8 +12,6 @@ async function seed() {
         content: 'The kitties are excellent and the milkshakes are so good! Highly recommended!'
     })
     
-    place.comments.push(comment.id)
-    
         //Add .save()
         await place.save()
         
@@ -21,27 +19,6 @@ async function seed() {
         process.exit()
     }
     seed()
-
-    async function seed12() {
-        let place = await db.Place.findOne({ name: 'Kawaii Kitty Cafe' })
-        
-        // Kawaii Kitty Cafe comment
-        let comment = await db.Comment.create({
-            author: 'Cat Mom Karen',
-            rant: false,
-            stars: 5.0,
-            content: 'The kitties are excellent and the milkshakes are so good! Highly recommended!'
-        })
-        
-        place.comments.push(comment.id)
-        
-            //Add .save()
-            await place.save()
-            
-            // Exit the program
-            process.exit()
-        }
-        seed12()
     
 async function seed1() {
     // Get the place, H-Thai-ML
@@ -64,30 +41,6 @@ async function seed1() {
     process.exit()
 }
 seed1()
-
-// async function seed1() {
-//     // Get the place, H-Thai-ML
-//     let place = await db.Place.findOne({ name: 'H-Thai-ML' })
-
-//     // H-Thai-ML comment
-//     let comment = await db.Comment.create({
-//         author: 'Anonymous',
-//         rant: false,
-//         stars: 4.5,
-//         content: 'Food is great! Ambience could have been brighter,however!'
-//     })
-
-//     place.comments.push(comment.id)
-
-//     //Add .save()
-//     await place.save()
-    
-//     // Exit the program
-//     process.exit()
-// }
-// seed1()
-
-
 
 async function seed2() {
 let place = await db.Place.findOne({ name: 'Burger King' })
