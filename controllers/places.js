@@ -4,7 +4,7 @@ const db = require('../models')
 router.get('/', (req, res) => {
   db.Place.find()
   .then((places) => {
-res.render('places/index', { places })
+res.render('places2/index', { places })
   })
     .catch(err => {
       console.log(err) 
@@ -15,7 +15,7 @@ res.render('places/index', { places })
 router.post('/', (req, res) => {
   db.Place.create(req.body)
   .then(() => {
-      res.redirect('/places')
+      res.redirect('/places2')
   })
   .catch(err => {
     console.log('err', err)
@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
 })
 
 router.get('/new', (req, res) => {
-  res.render('places/new')
+  res.render('places2/new')
 })
 
 router.get('/:id', (req, res) => {
@@ -32,7 +32,7 @@ router.get('/:id', (req, res) => {
   .populate('comments')
   .then(place => {
       console.log(place.comments)
-      res.render('places/show', { place })
+      res.render('places2/show', { place })
   })
   .catch(err => {
       console.log('err', err)
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
 router.put('/:id', (req, res) => {
   db.Place.findByIdAndUpdate(req.params.id, req.body)
   .then(() => {
-      res.redirect(`/places/${req.params.id}`)
+      res.redirect(`/places2/${req.params.id}`)
   })
   .catch(err => {
       console.log('err', err)
@@ -51,7 +51,7 @@ router.put('/:id', (req, res) => {
   })
 })
 
-router.delete('/places/:id', (req, res) => {
+router.delete('/places2/:id', (req, res) => {
   let id = Number(req.params.id)
   if (isNaN(id)) {
     res.render('error404')
@@ -74,7 +74,7 @@ router.get('/:id/edit', (req, res) => {
       res.render('error404')
   }
   else {
-    res.render('places/edit', { place: places[id] })
+    res.render('places2/edit', { place: places[id] })
   }
 })
 
@@ -95,7 +95,7 @@ router.post('/:id/comment', (req, res) => {
           place.comments.push(comment.id)
           place.save()
           .then(() => {
-              res.redirect(`/places/${req.params.id}`)
+              res.redirect(`/places2/${req.params.id}`)
           })
       })
       .catch(err => {
