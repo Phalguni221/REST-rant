@@ -20,27 +20,27 @@ const Def = require('./default')
             <div class = "row">
 
                 <div class="column">
-                    <img src="./images/H-Thai-M-L logo.png" alt="Burger King"/>
+                    <img src="./images/h-thai-m-l logo.png" alt="Burger King"/>
                     </div>
 
                 <div class="column">
-                    <img src="./images/Burger King.png" alt="Burger King"/>
+                    <img src="./images/burger king.png" alt="Burger King"/>
                 </div>
 
                 <div class="column">
-                    <img src="./images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
+                    <img src="./images/sarvanana bhavan.png" alt="Sarvana Bhavan"/>
                 </div>
 
                 <div class="column">
-                    <img src="./images/Veggie Grill.png" alt="Veggie Grill"/>
+                    <img src="./images/veggie grill.png" alt="Veggie Grill"/>
                 </div> 
 
                 <div class="column">
-                    <img src="./images/Panda Express.png" alt="Panda Express"/>
+                    <img src="./images/panda express.png" alt="Panda Express"/>
                 </div> 
 
                 <div class="column">
-                    <img src="./images/Kawaii Kitty Cafe.png" alt="Kawaii Kitty Cafe"/>
+                    <img src="./images/kawaii kitty cafe.png" alt="Kawaii Kitty Cafe"/>
                 </div> 
                 <br></br>
             </div>
