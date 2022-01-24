@@ -8,7 +8,7 @@ const Def = require('./default')
                   <head>
                        <h1>REST-RANT</h1>
                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="/public/css/style.css"/>
+            <link rel="stylesheet" href="./css/style.css"/>
                   </head>
                   <div className="col-sm-6">
     <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
@@ -20,27 +20,27 @@ const Def = require('./default')
             <div class = "row">
 
                 <div class="column">
-                    <img src="./Images/H-Thai-M-L logo.png" alt="Burger King"/>
+                    <img src="./images/H-Thai-M-L logo.png" alt="Burger King"/>
                     </div>
 
                 <div class="column">
-                    <img src="./Images/Burger King.png" alt="Burger King"/>
+                    <img src="./images/Burger King.png" alt="Burger King"/>
                 </div>
 
                 <div class="column">
-                    <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
+                    <img src="./images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
                 </div>
 
                 <div class="column">
-                    <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
+                    <img src="./images/Veggie Grill.png" alt="Veggie Grill"/>
                 </div> 
 
                 <div class="column">
-                    <img src="./Images/Panda Express.png" alt="Panda Express"/>
+                    <img src="./images/Panda Express.png" alt="Panda Express"/>
                 </div> 
 
                 <div class="column">
-                    <img src="./Images/Kawaii Kitty Cafe.png" alt="Kawaii Kitty Cafe"/>
+                    <img src="./images/Kawaii Kitty Cafe.png" alt="Kawaii Kitty Cafe"/>
                 </div> 
                 <br></br>
             </div>
