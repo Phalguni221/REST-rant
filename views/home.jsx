@@ -45,7 +45,7 @@ const Def = require('./default')
                 <br></br>
             </div>
                 <h4>Learn more about each place!!</h4>
-              <a href="/places">
+              <a href="/places2">
   <button className="btn-primary">Places Page</button>
               </a>
               </main>
