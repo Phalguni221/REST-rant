@@ -15,13 +15,13 @@ const Def = require('./default')
        Photo by <a href="https://unsplash.com/@shootdelicious">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/free">Unsplash</a>
             <br></br>
             <br></br>
-            <div class = "row">
+            <div className = "row">
 
-                <div class="column">
+                <div className ="column">
                     <img src="./Images/H-Thai-M-L logo.png" alt="Burger King"/>
                     </div>
 
-                <div class="column">
+                <div className ="column">
                     <img src="./Images/Burger King.png" alt="Burger King"/>
                 </div>
 
@@ -29,15 +29,15 @@ const Def = require('./default')
                     <img src="./Images/Sarvanana Bhavan.png" alt="Sarvana Bhavan"/>
                 </div>
 
-                <div class="column">
+                <div className ="column">
                     <img src="./Images/Veggie Grill.png" alt="Veggie Grill"/>
                 </div> 
 
-                <div class="column">
+                <div className ="column">
                     <img src="./Images/Panda Express.png" alt="Panda Express"/>
                 </div> 
 
-                <div class="column">
+                <div className ="column">
                     <img src="./Images/Kawaii Kitty Cafe.png" alt="Kawaii Kitty Cafe"/>
                 </div> 
                 <br></br>
